@@ -1,0 +1,39 @@
+# dependencies
+!.yarn/releases
+!.yarn/versions
+!.yarn/patches
+!.yarn/plugins
+/node_modules
+.yarn/*
+.pnp.*
+/.pnp
+
+# debug
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# next.js
+/.next/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# production
+/build
+
+# testing
+/coverage
+
+# vercel
+.vercel
+
+# env
+.env*
